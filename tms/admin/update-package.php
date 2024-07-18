@@ -128,18 +128,11 @@ foreach($results as $result)
 								</div>
 
 <div class="form-group">
-									<label for="focusedinput" class="col-sm-2 control-label">Package Price in USD</label>
+									<label for="focusedinput" class="col-sm-2 control-label">Package Price in INR</label>
 									<div class="col-sm-8">
-										<input type="text" class="form-control1" name="packageprice" id="packageprice" placeholder=" Package Price is USD" value="<?php echo htmlentities($result->PackagePrice);?>" required>
+										<input type="text" class="form-control1" name="packageprice" id="packageprice" placeholder=" Package Price is INR" value="<?php echo htmlentities($result->PackagePrice);?>" required>
 									</div>
 								</div>
-
-<div class="form-group">
-									<label for="focusedinput" class="col-sm-2 control-label">Package Features</label>
-									<div class="col-sm-8">
-										<input type="text" class="form-control1" name="packagefeatures" id="packagefeatures" placeholder="Package Features Eg-free Pickup-drop facility" value="<?php echo htmlentities($result->PackageFetures);?>" required>
-									</div>
-								</div>		
 
 
 <div class="form-group">
