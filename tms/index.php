@@ -72,7 +72,7 @@ foreach($results as $result)
 					<p><b>Features</b> <?php echo htmlentities($result->PackageFetures);?></p>
 				</div>
 				<div class="col-md-3 room-right wow fadeInRight animated" data-wow-delay=".5s">
-					<h5>USD <?php echo htmlentities($result->PackagePrice);?></h5>
+					<h5>INR <?php echo htmlentities($result->PackagePrice);?></h5>
 					<a href="package-details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="view">Details</a>
 				</div>
 				<div class="clearfix"></div>
@@ -96,7 +96,7 @@ foreach($results as $result)
 				<a href="#"><i class="glyphicon glyphicon-list-alt"></i></a>
 			</div>
 			<div class="rou-rgt wow fadeInDown animated" data-wow-delay=".5s">
-				<h3>80000</h3>
+				<h3>50000</h3>
 				<p>Enquiries</p>
 			</div>
 				<div class="clearfix"></div>
@@ -106,7 +106,7 @@ foreach($results as $result)
 				<a href="#"><i class="fa fa-user"></i></a>
 			</div>
 			<div class="rou-rgt">
-				<h3>1900</h3>
+				<h3>10000</h3>
 				<p>Registered users</p>
 			</div>
 				<div class="clearfix"></div>
@@ -116,7 +116,7 @@ foreach($results as $result)
 				<a href="#"><i class="fa fa-ticket"></i></a>
 			</div>
 			<div class="rou-rgt">
-				<h3>7,00,00,000+</h3>
+				<h3>7000</h3>
 				<p>Booking</p>
 			</div>
 				<div class="clearfix"></div>
